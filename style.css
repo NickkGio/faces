@@ -1,0 +1,71 @@
+body {
+                
+    background-color:salmon;
+    margin: 0;
+}
+
+
+.contenitore {
+
+    position: absolute;
+    width: 400px;
+    height:400px;
+    left: 50%;
+    top:  50%;
+    margin-left: -200px;
+    margin-top:  -200px;
+}
+.faccia {
+  position: absolute;
+background-color: rgb(216, 51, 51);
+width: 100%;
+height: 100%;
+}
+.naso {
+  position: absolute;
+background-color: rgb(165, 42, 42);
+width: 50%;
+height: 50%;
+left: 25%;
+top:  28%;
+}
+
+.bocca {
+position: absolute;
+background-color: rgb(131, 32, 32);
+width: 60%;
+height: 25%;
+left: 20%;
+top: 65%;
+
+}
+
+.occhio {
+position: absolute;
+background-color: rgb(172, 133, 133);
+width: 20%;
+height: 20%;
+top: 20%;
+
+}
+.occhio {
+position: absolute;
+background-color: rgb(238, 109, 23);
+width: 20%;
+height: 20%;
+right: 20%;
+top: 30%;
+
+}
+.occhio-dx {
+right: 20%;
+} 
+.occhio-sx {
+left: 20%;
+} 
+
+.layer {
+background-color: transparent;
+}
+
+{ }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+<link rel="stylesheet" href="style.css">
+
+      <meta charset="UTF-8">
+
+      <title>Esempio1</title>
+            
+    </head>
+
+  <body>
+    <div class="contenitore">
+            <div class="layer faccia">
+                <img src="img/faccia_0.png" alt="faccia0" width="100%">
+            </div> 
+            <div class="layer bocca">
+                <img src="img/bocca_1.png" alt="bocca0" width="100%">
+            </div> 
+            <div class="layer naso">
+                <img src="img/naso_0.png" alt="naso0" width="100%">
+            </div> 
+            <div class="layer occhio occhio-sx">
+                <img src="img/occhio_sx_1.png" alt="occhio0" width="100%">
+            </div> 
+            <div class="layer occhio occhio-dx">
+                <img src="img/occhio_dx_0.png" alt="ochhio0" width="100%">
+            </div> 
+    </div>  
+    </div> 
+    <script>
+         const nf=Math.floor (Math.random() * 3 )
+         const imf = document.querySelector(".faccia img")
+        imf.src = "img/faccia_" + nf + ".png" 
+        
+        const nb=Math.floor (Math.random() * 3 )
+         const imb = document.querySelector(".bocca img")
+        imb.src = "img/bocca_" + nb + ".png" 
+        
+        const nn=Math.floor (Math.random() * 3 )
+         const imn = document.querySelector(".naso img")
+        imn.src = "img/naso_" + nn + ".png" 
+        
+        const nocchiod=Math.floor (Math.random() * 3 )
+         const imocchiod = document.querySelector(".occhio-dx img")
+        imocchiod.src = "img/occhio_dx_" + nocchiod + ".png" 
+        
+        const nocchios=Math.floor (Math.random() * 3 )
+         const imocchios = document.querySelector(".occhio-sx img")
+        imocchios.src = "img/occhio_sx_" + nocchios + ".png" 
+
+
+        
+       
+        
+    </script> 
+  </body>
+</html>
